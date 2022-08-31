@@ -1,56 +1,56 @@
 import java.util.*;
 public class months{
 
-    public String mon(int m){
+    public void mon(int m){
         switch (m) {
             case 1:
-                return "Janvary";
+                System.out.println("Jan");
                 break;
             case 2:
-                return "Feb";    
+            System.out.println("Feb");    
                 break;
             
             case 3:
-                return "March";    
+            System.out.println("March");    
                 break;
 
             case 4:
-                return "April";    
+            System.out.println("April");    
                 break;
             
             case 5:
-                return "May";    
+            System.out.println("May");    
                 break;       
         
             case 6:
-                return "June";    
+            System.out.println("June");    
                 break;
                 
             case 7:
-                return "July";    
+            System.out.println("July");    
                 break;
             
             case 8:
-                return "Aug";    
+            System.out.println("Aug");    
                 break;
             
             case 9:
-                return "Sept";    
+            System.out.println("Sept");    
                 break;
             
             case 10:
-                return "Oct";    
+            System.out.print( "Oct");    
                 break;
             
             case 11:
-                return "Nov";    
+            System.out.println ("Nov");    
                 break;
 
             case 12:
-                return "Dec";    
+            System.out.println("Dec");    
                 break;
             default:
-                return "wrong choice";
+            System.out.println("wrong choice");
                 break;
         }
         
@@ -62,10 +62,9 @@ public class months{
         System.out.println("Enter no of months");
         m=sc.nextInt();
         months ob=new months();
-        String s;
-        s=ob.mon(m);  
-        System.out.print("Month is"+s);
-            
+        
+        ob.mon(m);  
+        
     }
 }
     
