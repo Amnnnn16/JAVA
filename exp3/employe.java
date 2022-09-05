@@ -1,6 +1,4 @@
 import java.util.*;
-
-import org.ietf.jgss.GSSCredential;
 public class employe
 { 
     double g_sal,it,n_sal;

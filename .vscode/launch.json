@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch aces_spec",
+            "request": "launch",
+            "mainClass": "aces_spec",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch combination",
+            "request": "launch",
+            "mainClass": "combination",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch divby5",
+            "request": "launch",
+            "mainClass": "divby5",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch employe",
+            "request": "launch",
+            "mainClass": "employe",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch greatest",
+            "request": "launch",
+            "mainClass": "greatest",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch marks",
+            "request": "launch",
+            "mainClass": "marks",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch months",
+            "request": "launch",
+            "mainClass": "months",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sq",
+            "request": "launch",
+            "mainClass": "sq",
+            "projectName": "java_5f810b2c"
+        }
+    ]
+}
