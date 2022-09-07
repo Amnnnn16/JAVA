@@ -11,8 +11,8 @@ public class combination{
     int i,j,k;
     for(i=0;i<3;i++){
         for(j=0;j<3;j++){
-            for(k=0;k<3;k++){
-             ?//condition to avoid repeted numbers in combination
+        for(k=0;k<3;k++){
+             //condition to avoid repeted numbers in combination
                  if(i!=j&&j!=k&&k!=i){
                     System.out.println("{"+" "+arr[i]+" "+arr[j]+" "+arr[k]+" "+"}");
 

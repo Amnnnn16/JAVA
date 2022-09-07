@@ -6,7 +6,7 @@ public class pvt_mem {
         return a+b;
 
     }
-int mult(int c,int d){
+   int mult(int c,int d){
     return c*d;
 }
 
@@ -28,7 +28,7 @@ class three extends der_class{
     //   int  a1=1;
     //   int   b1=1;
         int m=ob.mult(a1,b1);
-        System.out.print(m);
+        System.out.print(m); 
 
     }
 }
