@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lab",
+            "request": "launch",
+            "mainClass": "lab",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch worker$lab",
+            "request": "launch",
+            "mainClass": "worker$lab",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
             "name": "Launch three",
             "request": "launch",
             "mainClass": "three",

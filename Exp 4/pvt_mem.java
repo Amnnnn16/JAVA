@@ -13,7 +13,7 @@ public class pvt_mem {
     
 }
 class der_class extends pvt_mem{
-static int a1=1;
+int a1=1;
 static int b1=2;
 
 int div(int a,int b){
@@ -23,11 +23,17 @@ int div(int a,int b){
 
 }
 class three extends der_class{
+    void display()
+    {
+        System.out.print(a1);
+    }
     public static void main(String args[]){
         pvt_mem ob=new pvt_mem();
+        three t3=new three();
+        t3.display();
     //   int  a1=1;
     //   int   b1=1;
-        int m=ob.mult(a1,b1);
+        int m=ob.mult(der_class.b1, t3.display();a1,b1);
         System.out.print(m); 
 
     }
