@@ -3,8 +3,7 @@ class Playerr {
     int age;
 
     void playerr(String n,int a){
-        this.name=n;
-        this.age=a;
+        super(name,age);
 
     }
 
@@ -30,7 +29,7 @@ class cricket_playerr extends Playerr{
 }
 public class exp1{
     cricket_playerr ob=new cricket_playerr("aman",19);
-    super.display_info();
+    ob.display_info();
 
 
 

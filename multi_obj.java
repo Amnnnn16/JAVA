@@ -27,7 +27,7 @@ public class multi_obj {
         circle obj=new circle(2.5);
         circle obj1=new circle(obj);
         double a=obj.area();
-        System.out.println(obj1.area());
+        System.out.println  (obj1.area());
         System.out.print(a);
 
     }

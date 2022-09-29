@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch interf",
+            "request": "launch",
+            "mainClass": "interf",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
             "name": "Launch multi_obj",
             "request": "launch",
             "mainClass": "multi_obj",
