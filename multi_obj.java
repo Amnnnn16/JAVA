@@ -29,6 +29,7 @@ public class multi_obj {
         double a=obj.area();
         System.out.println  (obj1.area());
         System.out.print(a);
+        System.out.print(a);System.out.print(a);System.out.print(a);
 
     }
     
