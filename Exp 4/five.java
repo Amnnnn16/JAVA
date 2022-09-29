@@ -1,4 +1,3 @@
-
 class Employee{
     String name;
     int empid;
@@ -8,10 +7,10 @@ class Employee{
         this.empid=empid;
         this.salary=salary;
     }
-    public void employee_Det(Employee obj){
+    public void employeeDetails(Employee obj){
         System.out.println(obj.name+" "+String.valueOf(obj.salary));
     }
-    public void inc_Salary(Employee obj,int incrementPerc){
+    public void increaseSalary(Employee obj,int incrementPerc){
         obj.salary=obj.salary+(((incrementPerc)*obj.salary)/100);
     }
 }
@@ -32,4 +31,3 @@ class Manager extends Employee{
     }
 
 }
-

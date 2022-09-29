@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch multi_obj",
+            "request": "launch",
+            "mainClass": "multi_obj",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch new_class",
+            "request": "launch",
+            "mainClass": "exp5.new_class",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
             "name": "Launch lab",
             "request": "launch",
             "mainClass": "lab",
