@@ -1,3 +1,6 @@
+public class new {
+    
+}
 interface camera{
     void record();
     void capture();

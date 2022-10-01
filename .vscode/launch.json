@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch exp",
+            "request": "launch",
+            "mainClass": "exp",
+            "projectName": "java_5f810b2c"
+        },
+        {
+            "type": "java",
             "name": "Launch interf",
             "request": "launch",
             "mainClass": "interf",
